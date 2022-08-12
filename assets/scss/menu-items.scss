@@ -1,0 +1,54 @@
+nav.menu-items {
+    background: $color-secundary;
+    color: $color-white;  
+
+    a {
+        color: $color-white;
+        text-decoration: none;
+    }
+    
+    ul.nav {
+        cursor: pointer;
+
+        li {
+            position: relative;
+            padding: 10px;
+            font-size: 16px;
+            
+            svg {
+                width: 26px;
+                height: 24px;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background: darken($color: $color-secundary, $amount: 20);
+                
+                ul.nav {
+                    display: block;
+                }
+            }
+
+            ul.nav {
+                display: none;
+                z-index: 999;
+                text-align: center;
+                position: absolute;
+                top: 44px;
+                left: 0px;
+                background-color: $color-secundary;
+                width: 70%;
+                border-top: 10px solid $color-primary;
+
+                li {
+                    padding: 10px 15px;
+                }
+
+                &:hover {
+                    color: initial;
+                }
+            }
+        }
+    }
+}
