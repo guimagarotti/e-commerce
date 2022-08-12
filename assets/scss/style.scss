@@ -1,4 +1,18 @@
 //Bootstrap
 @import "./bootstrap.scss";
+@import "./variaveis.scss";
+
 //Fonte
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+//Components
+@import "./header.scss";
+@import "./menu-items.scss";
+@import "./sale-banners.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
