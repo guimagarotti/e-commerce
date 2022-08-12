@@ -11025,7 +11025,7 @@ nav.menu-items ul.nav {
 }
 nav.menu-items ul.nav li {
   position: relative;
-  padding: 10px;
+  padding: 10px 0;
   font-size: 16px;
 }
 nav.menu-items ul.nav li svg {
