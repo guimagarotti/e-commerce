@@ -1,0 +1,30 @@
+footer {
+    background-color: $color-secundary;
+    margin-top: 50px;
+    padding: 25px 0;
+
+    h4 {
+        font-weight: 700;
+        height: 22px;
+        font-size: 19px;
+        color: $color-primary;
+        margin: 15px 0;
+        cursor: pointer;
+    }
+
+    ul {
+        li {
+            color: $color-white;
+
+            a {
+                color: $color-white;
+                font-size: 16px;
+                text-decoration: none;
+
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

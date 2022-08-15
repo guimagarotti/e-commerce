@@ -10988,8 +10988,8 @@ header nav ul li .messages {
   font-size: 10px;
   height: 16px;
   width: 16px;
-  top: -11px;
-  left: 2px;
+  top: -12px;
+  left: 4px;
   border-radius: 50%;
 }
 header nav ul li a {
@@ -11091,6 +11091,178 @@ nav.menu-items ul.nav li ul.nav:hover {
   font-size: 24px;
 }
 
+.produtos h1 {
+  font-weight: bold;
+  font-size: 26px;
+  height: 30px;
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-item {
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.produtos .produtos-container .produtos-item .item-items h2 {
+  font-size: 19px;
+  font-weight: bold;
+  height: 22px;
+  margin: 10px 0 0 5px;
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-item .item-items .stars {
+  color: #FFC107;
+  margin-left: 5px;
+}
+.produtos .produtos-container .produtos-item .item-items .price {
+  color: #343A40;
+  font-size: 16px;
+  margin: 3px 0 0 5px;
+}
+
+footer {
+  background-color: #343A40;
+  margin-top: 50px;
+  padding: 25px 0;
+}
+footer h4 {
+  font-weight: 700;
+  height: 22px;
+  font-size: 19px;
+  color: #FFC107;
+  margin: 15px 0;
+  cursor: pointer;
+}
+footer ul li {
+  color: #FFFFFF;
+}
+footer ul li a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #FFC107;
+}
+
+@media (max-width: 320px) {
+  .sale-banners-static .sale-banners-static-12x p, .sale-banners-static .sale-banners-static-br p {
+    font-size: 12px;
+  }
+  .sale-banners-static .sale-banners-static-12x p strong, .sale-banners-static .sale-banners-static-br p strong {
+    font-size: 12px;
+  }
+  .sale-banners-static .sale-banners-static-12x svg, .sale-banners-static .sale-banners-static-br svg {
+    width: 0.8em;
+    height: 0.8em;
+  }
+}
+@media (max-width: 375px) {
+  .sale-banners-static .sale-banners-static-12x p, .sale-banners-static .sale-banners-static-br p {
+    font-size: 19px;
+  }
+  .sale-banners-static .sale-banners-static-12x p strong, .sale-banners-static .sale-banners-static-br p strong {
+    font-size: 19px;
+  }
+  .sale-banners-static .sale-banners-static-12x svg, .sale-banners-static .sale-banners-static-br svg {
+    width: 1em;
+    height: 1em;
+  }
+}
+@media (max-width: 425px) {
+  .sale-banners-static .sale-banners-static-12x p, .sale-banners-static .sale-banners-static-br p {
+    font-size: 24px;
+  }
+  .sale-banners-static .sale-banners-static-12x p strong, .sale-banners-static .sale-banners-static-br p strong {
+    font-size: 24px;
+  }
+  .sale-banners-static .sale-banners-static-12x svg, .sale-banners-static .sale-banners-static-br svg {
+    width: 1.1em;
+    height: 1.1em;
+  }
+}
+@media (max-width: 767px) {
+  header img {
+    margin-bottom: 20px;
+  }
+  header form {
+    margin: 20px 0;
+  }
+  .menu-items ul {
+    width: 180px;
+  }
+  .menu-items ul li {
+    width: 180px;
+    text-align: start;
+  }
+  #sale-banners {
+    display: none;
+  }
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 5px 1px;
+  }
+  header ul li a .messages {
+    left: 9px;
+  }
+  header ul li a #sacola {
+    margin-left: 5px;
+  }
+  .sale-banners-static .sale-banners-static-12x p, .sale-banners-static .sale-banners-static-br p {
+    font-size: 19px;
+  }
+  .sale-banners-static .sale-banners-static-12x p strong, .sale-banners-static .sale-banners-static-br p strong {
+    font-size: 19px;
+  }
+  .sale-banners-static .sale-banners-static-12x svg, .sale-banners-static .sale-banners-static-br svg {
+    width: 0.9em;
+    height: 0.9em;
+  }
+}
+.produtos .breadcrumb {
+  margin: 40px 0;
+}
+.produtos .breadcrumb li a {
+  color: #FF0F9A;
+  text-decoration: none;
+}
+.produtos .produtos-title {
+  font-weight: bold;
+  font-size: 26px;
+  color: #343A40;
+  margin-bottom: 15px;
+}
+.produtos .produtos-text {
+  font-weight: normal;
+  color: #343A40;
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.produtos .produtos-item .item-items {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 450px) {
+  .produtos-title {
+    font-weight: bold;
+    font-size: 26px;
+    color: #343A40;
+    margin-bottom: 40px;
+  }
+  .produtos-text {
+    font-weight: normal;
+    color: #343A40;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
