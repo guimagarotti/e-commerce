@@ -11263,6 +11263,47 @@ footer ul li a:hover {
     margin-bottom: 30px;
   }
 }
+.camiseta-compra figure {
+  margin: 0;
+}
+.camiseta-compra .compra {
+  height: 100%;
+}
+.camiseta-compra .compra .camiseta-info .camiseta-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.camiseta-compra .compra .camiseta-info .camiseta-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  width: 450px;
+  margin-bottom: 0;
+}
+.camiseta-compra .compra .produtos-preco .stars {
+  color: #FFC107;
+  padding-top: 15px;
+}
+.camiseta-compra .compra .produtos-preco .price {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.camiseta-compra .compra .produtos-preco .price span {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 31px;
+}
+.camiseta-compra .compra .produtos-preco form select {
+  margin-bottom: 26px;
+}
+
 * {
   margin: 0;
   padding: 0;

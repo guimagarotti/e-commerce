@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magarotti &copy; - Compra</title>
+    <!--CSS Bootstrap-->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <!--Icons Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#FFC107">
+    <meta name="msapplication-TileImage" content="./assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#FFC107">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header class="container-fluid">
+        <div class="container">
+            <nav class="row d-flex align-items-center">
+                <a href="./" class="col-md-2 d-flex justify-content-center">
+                    <img src="assets/images/logo.svg" class="img-fluid" alt="Logo Commerce">
+                </a>
+
+                <form action="#" class="col-md-7 d-flex align-items-center justify-content-between">
+                    <input type="text" name="searching" placeholder="Procurar roupas aqui...">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                    </button>
+                </form>
+
+                <ul class="col-md-3 nav d-flex justify-content-around">
+                    <li class="nav-item d-flex align-items-center justify-content-center">
+                        <a href="/">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+                            Entrar
+                        </a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center justify-content-center">
+                        <a href="/">
+                            <span class="messages d-flex justify-content-center align-items-center">3</span id="sacola">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="sacola" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16" id="special"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/></svg>
+                            Sacola
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Menu Hamburguer-->
+    <nav class="container-fluid menu-items">
+        <section class="container">
+            <ul class="nav">
+                <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+                    Moda Feminina 
+                    
+                    <!--Sub-menu-->
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a href="#">Lançamentos</a></li>
+                        <li class="nav-item"><a href="#">Plus Size</a></li>
+                        <li class="nav-item"><a href="#">Moda Praia</a></li>
+                        <li class="nav-item"><a href="#">Acessórios</a></li>
+                        <li class="nav-item"><a href="#">Promoção</a></li>
+                    </ul>
+                </li>
+                <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg>
+                    Calçados                    
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <main>
+        <section class="container produtos">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="camisetas.html">Camisetas</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Camiseta Manga Comprida</li>
+                </ol>
+            </nav>           
+            <article class="row camiseta-compra">
+                <figure class="col-md-7">
+                    <img src="./assets/images/foto-carrinho-camiseta-manga-comprida.jpg" class="img-fluid" alt="Camiseta Listrada">
+                </figure>
+                
+                <article class="col-md-5 d-flex flex-column compra">
+                    <!--Titulo e Descrição-->
+                    <div class="camiseta-info">
+                        <h1 class="camiseta-title">Camiseta Manga Comprida</h1>
+                        <p class="camiseta-text">
+                            Todos os meses disponibilizamos uma grande variedade de looks que são hits e queridinhos do momento através de lançamentos exclusivos de moda Feminina.
+                        </p>
+                    </div>
+                    <!--Estrelas-->
+                    <div class="produtos-preco">
+                        <div class="stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                        </div>
+                        <!--Preço + Parcela-->
+                        <div class="price">
+                            <strong>
+                                R$ 47,90
+                                <span class="d-block">
+                                    Em até 5x sem juros
+                                </span>
+                            </strong>
+                        </div>
+                        <!--Input-->
+                        <form action="#">
+                            <div class="input-group">
+                                <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <!--Botão-->
+                            <button type="submit" class="btn btn-success col-md-12">Comprar</button>
+                        </form>
+                    </div>
+                </article> 
+                
+                <div class="fb-comments col-md-2 mt-5" data-href="http://127.0.0.1:5500/manga-comprida.html" data-width="100%" data-numposts="5"></div>
+            </article>
+        </section>                
+    </main>
+
+    <!--Footer-->
+    <footer class="container-fluid">
+        <section class="container">
+            <section class="row">
+               <!--Atendimento-->
+                <article class="col-md-4">
+                    <h4>Atendimento</h4>
+                    <ul class="nav flex-column">
+                        <li>
+                            <a href="tel:+5515999999999">(15) 9 9999 9999</a>
+                        </li>
+                        <li>
+                            <a href="mailto:contato@magarotti.com">contato@magarotti.com</a>
+                        </li>
+                        <li>
+                            Horário de atendimento online:<br>
+                            Segunda à Sexta, das 9h00 às 17h30
+                        </li>
+                    </ul>
+                </article>
+            
+                <!--Acesso Rápido-->
+                <article class="col-md-3">
+                    <h4>Acesso Rápido</h4>
+                    <ul class="nav flex-column">
+                        <li>
+                            <a href="/">Minha conta</a>
+                        </li>
+                        <li>
+                            <a href="/">Meus pedidos</a>
+                        </li>
+                        <li>
+                            <a href="/">Rastrear meus pedidos</a>
+                        </li>
+                        <li>
+                            <a href="/">Troca e devoluções</a>
+                        </li>
+                    </ul>
+                </article>
+                <!--Institucional-->
+                <article class="col-md-3">
+                    <h4>Institucional</h4>
+                    <ul class="nav flex-column">
+                        <li>
+                            <a href="/">Sobre a loja</a>
+                        </li>
+                        <li>
+                            <a href="/">Políticas e Privacidade</a>
+                        </li>
+                    </ul>
+                </article>
+                <!--Mais Acessadas-->
+                <article class="col-md-2">
+                    <h4>Acessadas</h4>
+                    <ul class="nav flex-column">
+                        <li>
+                            <a href="/">Cropped</a>
+                        </li>
+                        <li>
+                            <a href="/">Camisa Manga Com...</a>
+                        </li>
+                        <li>
+                            <a href="/">Camisa Listrada</a>
+                        </li>
+                        <li>
+                            <a href="/">Saia Plisada</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+    </footer>   
+    <!--JS Bootstrap-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <!--Facebook Plugin-->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v14.0" nonce="blkj4Bba"></script>
+</body>
+</html>

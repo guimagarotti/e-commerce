@@ -1,0 +1,55 @@
+.camiseta-compra {
+    figure {
+        margin: 0;
+    }
+
+    .compra {
+        height: 100%;
+
+        .camiseta-info {
+            .camiseta-title {
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 38px;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+    
+            .camiseta-text {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+                width: 450px;
+                margin-bottom: 0;
+            }
+        }
+    
+        .produtos-preco {
+            .stars {
+                color: $color-primary;
+                padding-top: 15px;
+            }
+
+            .price {
+                margin-top: 10px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 47px;
+                
+                span {
+                    font-weight: 700;
+                    margin-top: 10px;
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-bottom: 31px;
+                }  
+            }
+
+            form {
+                select {
+                    margin-bottom: 26px;
+                }
+            }
+        }
+    }
+}
