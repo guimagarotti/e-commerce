@@ -11155,6 +11155,9 @@ footer ul li a:hover {
     width: 0.8em;
     height: 0.8em;
   }
+  .camiseta-title {
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 375px) {
   .sale-banners-static .sale-banners-static-12x p, .sale-banners-static .sale-banners-static-br p {
@@ -11221,6 +11224,14 @@ footer ul li a:hover {
     width: 0.9em;
     height: 0.9em;
   }
+  .camiseta-title {
+    width: 310px;
+  }
+}
+@media (max-width: 1199px) {
+  .produtos .camiseta-compra .compra .camiseta-info .camiseta-title {
+    font-size: 25px;
+  }
 }
 .produtos .breadcrumb {
   margin: 40px 0;
@@ -11280,7 +11291,6 @@ footer ul li a:hover {
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
-  width: 450px;
   margin-bottom: 0;
 }
 .camiseta-compra .compra .produtos-preco .stars {

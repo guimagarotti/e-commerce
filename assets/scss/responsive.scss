@@ -15,6 +15,10 @@
             }
         }
     }
+
+    .camiseta-title {
+        padding-bottom: 10px;
+    }
 }
 @media (max-width: 375px) {
     .sale-banners-static {
@@ -81,7 +85,7 @@
         img {
             width: 100%;
         }
-    }
+    }    
 }
 
 @media (max-width: 991px) {
@@ -119,4 +123,22 @@
             }
         }
     }
+
+    .camiseta-title {
+        width: 310px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .produtos {
+        .camiseta-compra {
+            .compra {
+                .camiseta-info {
+                    .camiseta-title {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }    
 }
