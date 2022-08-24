@@ -2,7 +2,7 @@
 ## Realizado com apoio do canal [Vida Fullstack](https://www.youtube.com/channel/UCbxACVU7yctKqRfA8-5cFOA), na Jornada Front-End.
 
 - [Acesse meu LinkedIn](https://www.linkedin.com/in/guilherme-cambi-magarotti-16177522b/)
-- [Acesse o Projeto](https://guimagarotti.github.io/website-magarotti/)
+- [Acesse o Projeto](https://guimagarotti.github.io/e-commerce/)
 
 ## Projeto 🛍️:
 <div align="justify">
